@@ -80,6 +80,7 @@ ul{
   background:#c9e6ff;
   border:0;
   text-transform: uppercase;
+  color: #485e74;
 }
 
 .contact form button:hover,.contact form button:focus{
@@ -102,5 +103,12 @@ ul{
 
   .company-info h3, .company-info ul, .brand{
     text-align: left;
+  }
+}
+
+/* SMALL SCREENS */
+@media(max-width:370px){
+  .contact form{
+    display: block;
   }
 }
